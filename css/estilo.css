@@ -2,11 +2,33 @@
 
 body {
   font-family: 'Poppins';
+  height: auto;
+  margin: 0px;
 }
 
-header, #principal, #second, #contato, #stream {
-	
+header {
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  display: flex;
+  height: 100px;
 }
+
+#logo {
+  margin: 0px;
+  height: 120px;
+}
+
+#menu{
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+}
+
+#principal img{
+  height: 600px;
+}
+
 
 .link-menu {
   color: #fff;
@@ -19,10 +41,12 @@ header, #principal, #second, #contato, #stream {
 
 .l {
   background-color: #e49756;
+
 }
 
 .m {
   background-color: #e04b5a;
+
 }
 
 main {
@@ -41,5 +65,49 @@ h1, h2 {
 footer {
   background-color: #333;
   color: #ddd;
+  height: 50px;
+  padding-top: 5px;
 }
 
+.item-menu{
+  padding: 5px 20px;
+}
+
+#menu a{
+  border-radius: 20%;
+  padding: 5px;
+}
+
+#contato{
+  height: 50px;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  display:flex;
+}
+#social {
+  display: flex;
+  flex-direction: row;
+}
+#social img{
+  height: 30px;
+  width: 30px;
+  padding: 10px;
+}
+
+#email a{
+  color: #fff;
+}
+
+#sec_ctd h1 {
+  justify-content:flex-end;
+}
+
+#principal{
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  display: flex;
+  height: 600px;
+}
