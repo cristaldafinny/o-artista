@@ -7,11 +7,13 @@ body {
 }
 
 header {
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   flex-direction: row;
   display: flex;
   height: 100px;
+  width: 1200px;
+  margin: 0 auto;
 }
 
 #logo {
@@ -26,9 +28,8 @@ header {
 }
 
 #principal img{
-  height: 600px;
+  height: 400px;
 }
-
 
 .link-menu {
   color: #fff;
@@ -76,14 +77,18 @@ footer {
 #menu a{
   border-radius: 20%;
   padding: 5px;
+  text-decoration: none;
+
 }
 
 #contato{
   height: 50px;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   flex-direction: row;
   display:flex;
+  width: 1200px;
+  margin: 0 auto;
 }
 #social {
   display: flex;
@@ -100,14 +105,59 @@ footer {
 }
 
 #sec_ctd h1 {
+  display: flex;
   justify-content:flex-end;
 }
 
-#principal{
-  width: 100%;
-  justify-content: center;
+#principal {
   align-items: center;
   flex-direction: row;
   display: flex;
   height: 600px;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+#second {
+  width: 1200px;
+  margin: 0 auto;
+  display:flex;
+  align-items: center;
+
+}
+
+#sec_ctd p {
+  text-align: justify;
+}
+
+#second img {
+  width: 300px;
+  align-items: center;
+  display: flex;
+  padding: 50px;
+}
+
+section #descricao{
+  display: flex;
+  margin: 0 auto;
+  border: solid black 1px;
+  align-items: center;
+}
+
+#descricao iframe{
+  border: 1px solid #fff;
+  padding: 20px;
+}
+
+#descricao ol{
+  width: 400px;
+}
+ 
+#acesso{
+  padding: 50px;
+  text-align: center;
+  font-size: x-large;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  border-radius: 7px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 1);
 }
